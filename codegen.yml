@@ -1,0 +1,7 @@
+schema: rick-and-morty.json
+generates:
+  types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-apollo-angular
